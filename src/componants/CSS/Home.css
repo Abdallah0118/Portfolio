@@ -1,0 +1,5 @@
+@import "./Variables.css";
+#home {
+  background-color: var(--bg-color);
+  height: calc(100svh - 48px);
+}
