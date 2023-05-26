@@ -1,0 +1,62 @@
+@import "./Variables.css";
+
+#techslider {
+  background: var(--second-bg);
+}
+#techslider div div {
+  color: var(--text-color);
+}
+#techslider div div h5 {
+  font-weight: 700;
+}
+#techslider div div p {
+  font-size: 0.9rem;
+}
+
+#slider {
+  overflow: hidden;
+}
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+#slider-track {
+  animation: scroll 10s linear infinite alternate;
+  width: max-content;
+  display: flex;
+}
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background: var(--bg-color);
+  padding: 15px 15px;
+  margin: 10px 10px;
+  border-radius: 15px;
+}
+.slide img {
+  width: 100px;
+}
+
+#resposive {
+}
+#resposive h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+#resposive h4 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+#resposive p {
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+#uiImg {
+  max-width: 350px;
+  min-width: 200px;
+}
