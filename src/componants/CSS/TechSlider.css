@@ -25,10 +25,11 @@
   }
 }
 #slider-track {
-  animation: scroll 10s linear infinite alternate;
+  animation: scroll 30s linear infinite alternate;
   width: max-content;
   display: flex;
 }
+
 .slide {
   display: flex;
   align-items: center;
@@ -39,7 +40,8 @@
   border-radius: 15px;
 }
 .slide img {
-  width: 100px;
+  max-width: 100px;
+  min-width: 50px;
 }
 
 #resposive {

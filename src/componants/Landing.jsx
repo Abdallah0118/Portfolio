@@ -17,8 +17,16 @@ const Landing = () => {
           that I can use my skills and experience to make a significant
           contribution to your team.
         </p>
-        <button className="">
+        <button className=" me-3">
           <NavLink to="/Contact">Contact me</NavLink>
+        </button>
+        <button>
+          <a
+            href={require("../assets/Abdallah Mohamed CV.pdf")}
+            download="Abdallah Mohamed CV.pdf"
+          >
+            Download CV
+          </a>
         </button>
       </div>
       <div className="col-10 col-lg-5">

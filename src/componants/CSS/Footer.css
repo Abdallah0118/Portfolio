@@ -1,7 +1,7 @@
 @import "./Variables.css";
 
 footer {
-  /* height: 20vh; */
+  height: 100px;
   background-color: var(--bg-color);
   color: var(--text-color);
   display: flex;

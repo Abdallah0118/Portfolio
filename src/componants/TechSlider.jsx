@@ -10,7 +10,7 @@ const TechSlider = () => {
       >
         <div className="col-12  col-md-6 d-flex justify-content-center align-items-center">
           <img
-          className=""
+            className=""
             id="uiImg"
             src={require("../assets/prototype.png")}
             alt="Img Not Found"
@@ -18,7 +18,7 @@ const TechSlider = () => {
         </div>
         <div className="col-12  col-md-6 text-center text-md-start">
           <h3>BUILDING RESPONSIVE UI</h3>
-          <h4>WITH REACT AND BOOTSTRAP</h4>
+          <h4>WITH REACT JS AND BOOTSTRAP</h4>
           <p>
             Responsive Design has been the prime requirement as we build the app
             considering the “mobile first” approach. So it is more important
