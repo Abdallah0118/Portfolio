@@ -47,11 +47,20 @@ header {
 #logo:hover {
   text-shadow: var(--main-color) 0px 5px 15px;
 }
-.container .navbar-toggler {
-  outline: none;
-  border: none;
-}
+
 .container .bi-list {
   color: var(--text-color);
   font-size: 1.75rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #offcanvasNavbar {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    max-width: 50%;
+  }
+  #linksHolder .nav-link.active::after,
+  #linksHolder .nav-link:hover::after {
+    left: 0;
+  }
 }
